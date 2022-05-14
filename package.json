@@ -1,0 +1,52 @@
+{
+  "name": "@skinnermc/skinviewer",
+  "version": "1.0.0",
+  "description": "Minecraft Skin Viewer for React",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "babel src/ --out-dir dist/ --extensions .tsx,.jsx,.ts,.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkinnerMC/SkinViewer.git"
+  },
+  "keywords": [
+    "minecraft",
+    "skin",
+    "viewer",
+    "skinviewer"
+  ],
+  "author": "MrZillaGold <Pronin Egor | mrzillagold@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SkinnerMC/SkinViewer/issues"
+  },
+  "homepage": "https://github.com/SkinnerMC/SkinViewer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/parser": "^7.17.10",
+    "@babel/plugin-proposal-object-rest-spread": "^7.17.3",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@babel/register": "^7.17.7",
+    "@types/react": "^17.0.38",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "4.33.0",
+    "babel-loader": "^8.2.5",
+    "eslint-plugin-react": "^7.28.0",
+    "skinview3d": "^2.2.0",
+    "typescript": "^4.5.4"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
